@@ -25,7 +25,10 @@ my @words = split /\W/, $string;
 
 my %counter;
 
-$counter{$_}++ for (@words);
+for my $word (@words) {
+	next unless $word =~ /\w/;
+	$counter{$word}++;
+}
 
 print Dumper \%counter;
 
