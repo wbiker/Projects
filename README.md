@@ -1,6 +1,11 @@
 Mega Project List
 ========
 
+This is a clone of the https://github.com/thekarangoel/Projects repo.
+
+* I propably am not able to comlete all task in this challenge.
+* I use this task to improve my Perl skills and to get familiar with git.
+
 Numbers
 ---------
 
